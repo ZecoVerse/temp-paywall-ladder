@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Index page styling */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#article-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#article-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#article-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Sticky note banner styling */
+.expiry-banner {
+    position: sticky;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #ffeb3b; /* Yellow sticky note color */
+    color: #333;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+    font-size: 1.1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #c8b800;
+    z-index: 1000;
+}
+
+.expiry-banner p {
+    margin: 0;
+}
+
+.expiry-banner a {
+    color: #0056b3;
+    font-weight: bold;
+}
